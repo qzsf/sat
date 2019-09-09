@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import dictionary from '../../assets/dictionary.js';
 
 @Component({
   selector: 'app-tab2',
@@ -6,7 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+  dictionary: any = dictionary;
 
   constructor() {}
+
+  swipe(item){
+    console.log('swipe')
+    delete this.dictionary[item];
+  }
 
 }

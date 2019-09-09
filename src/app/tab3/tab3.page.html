@@ -1,9 +1,26 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Three
+      Vocabulary
     </ion-title>
+    <ion-toggle slot="end" [(ngModel)]="def"></ion-toggle>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content fullscreen>
+  <div class="content">
+    <ion-card *ngFor="let item of diction | keyvalue" class="word" (swipeleft)="swipeleft(item.key)"
+      (tap)="tap(item.key)">
+      <ion-card-title *ngIf="!(toggle.indexOf(item.key) > -1 || def)" class="head animated fadeIn">{{item.key}}</ion-card-title>
+      <div *ngIf="def || toggle.indexOf(item.key) > -1" class="animated fadeIn">
+        <ion-card-header>
+          <ion-card-title>{{item.key}}</ion-card-title>
+          <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+        </ion-card-header>
+        <ion-card-content>
+          {{item.value}}
+        </ion-card-content>
+      </div>
+    </ion-card>
+  </div>
+</ion-content>
