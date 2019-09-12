@@ -9,7 +9,7 @@
 <ion-content>
   <ion-list>
     <!-- Multi-line sliding item with icon options on both sides -->
-    <ion-item-sliding (ionSwipe)="swipe(item.key)" *ngFor="let item of dictionary | keyvalue" class="word">
+    <ion-item-sliding (click)="toggleVisible()" [@myvisibility]="visibleState" (ionSwipe)="swipe(item.key)" *ngFor="let item of dictionary | keyvalue" class="word">
       <ion-item>
         <ion-label class="ion-text-wrap">
           <h1>{{item.key}}</h1>

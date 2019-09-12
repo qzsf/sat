@@ -8,7 +8,8 @@ import dictionary from '../../assets/dictionary.js';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page implements OnInit {
-
+// convert dictionary object to array
+listItem = Object.keys(dictionary).map(key=>({'key':key,'value':dictionary[key]}));
   diction: any = dictionary;
   def: boolean = false;
   toggle = <any>[];

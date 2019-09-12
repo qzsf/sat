@@ -9,7 +9,7 @@
 
 <ion-content fullscreen>
   <div class="content">
-    <ion-card *ngFor="let item of diction | keyvalue" class="word" (swipeleft)="swipeleft(item.key)"
+    <ion-card *ngFor="let item of listItem" class="word" (swipeleft)="swipeleft(item.key)"
       (tap)="tap(item.key)">
       <ion-card-title *ngIf="!(toggle.indexOf(item.key) > -1 || def)" class="head animated fadeIn">{{item.key}}</ion-card-title>
       <div *ngIf="def || toggle.indexOf(item.key) > -1" class="animated fadeIn">

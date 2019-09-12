@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Vocabulary
+    </ion-title>
+    <ion-toggle slot="end" [(ngModel)]="def"></ion-toggle>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <div class="content">
+    <ion-card *ngFor="let item of listItem" class="word" (swipeleft)="swipeleft(item)" [@collapseCard]>
+      <!-- <ion-card-title *ngIf="!(toggle.indexOf(item.key) > -1 || def)" class="head animated fadeIn">{{item.key}}</ion-card-title> -->
+        <ion-card-header [@titleInOut]="toggle.indexOf(item.key) > -1 ? 'in' : 'out'" (tap)="tap(item.key)">
+          <ion-card-title>{{item.key}}</ion-card-title>
+          <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+        </ion-card-header>
+        <ion-card-content [@inOut]="toggle.indexOf(item.key) > -1 ? 'in' : 'out'" (tap)="tap(item.key)">
+          {{item.value}}
+        </ion-card-content>
+        <ion-icon name="bookmark" (tap)="like(item.key)" [@bookmark]="bookmark.indexOf(item.key) > -1 ? 'mark' : 'unmark'"></ion-icon>
+        <!-- <ion-icon name="heart"></ion-icon> -->
+    </ion-card>
+  </div>
+</ion-content>
