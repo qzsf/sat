@@ -1,0 +1,25 @@
+Please describe your experience in analyzing state-of-the-art technologies in order to resolve critical information technology problems with innovative solutions. (2,000 characters)
+
+In order to analyzing state-of-the-art technologies to solve problems, I need to know or learn the new technologies and understand the problems that I am trying to solve. For the time that I don’t know the technology or cannot solve a problem by myself I will hold brainstorm sessions with coworkers and get a deeper understanding about the technology. Making the choice is the easy part once I have all the options/opinions. Discovering all the viable solutions is what makes the difference. The aha moment will come when I 
+
+
+
+I am curious. I always try to learn something new and track tech trends from different sources. When problems arise
+
+
+
+
+
+
+
+
+Please describe your experience with Agile Project Management methodologies. (4,000 characters)
+
+We shifted away from the traditional waterfall software development to agile for all of our projects for the last a few years. We achieved the customer satisfaction, which is our highest priority, through early and continuous delivery of valuable products. 
+At the beginning of the agile transformation, we felt disruptive and stressful, but the benefits were clear. The teams that adopted agile process became more creative and innovative. We saw improvements of performance, increasing of customer satisfaction, and employee engagement. 
+We have delivered working software frequently from a week to a couple of months with a preference to the shorter time scale. Compare with the old development style where the product was only usable when delivered at the end of the work, during the agile development, we delivered our product frequently and gave our stakeholders the chance to inspect what we have done and to feedback. This, in conjunction with the welcome to change attitude, makes us more likely to deliver products that stakeholders truly want. 
+We use Scrum framework in our daily activities. In our Scrum team, the product owner is responsible for creating user stories to maximize the value of the product. The development team is responsible for creating done increments. The Scrum Master is responsible for promoting Scrum and supporting the Scrum Team and remove impediments to the team's progress.
+For Sprint planning, we start with a product back log and end with a sprint goal and sprint backlog. For the daily Scrum, we examine progress over the last 24 hours and look to update the sprint backlog and the plan for the next 24 hours. For the sprint review, we look at the Sprint and inspect the increments and then update the product backlog. And finally, for the sprint retrospective, we examine how the sprint went and look for improvements for the next sprint. 
+We worked with teams from different components together daily throughout the projects. When we cut the gap between us and work together towards a common goal, we increase the likelihood of creating products that our agency needs, thereby increasing the chances of success. 
+With the agile mindset, we were able to boost our productivity, adapt and respond to changes as we progress. It helped with more transparency between team members, improved our products performance. 
+
