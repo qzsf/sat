@@ -1,13 +1,8 @@
 Please describe your experience in analyzing state-of-the-art technologies in order to resolve critical information technology problems with innovative solutions. (2,000 characters)
 
-In order to analyzing state-of-the-art technologies to solve problems, I need to know or learn the new technologies and understand the problems that I am trying to solve. For the time that I don’t know the technology or cannot solve a problem by myself I will hold brainstorm sessions with coworkers and get a deeper understanding about the technology. Making the choice is the easy part once I have all the options/opinions. Discovering all the viable solutions is what makes the difference. The aha moment will come when I 
+The success of the software development depends greatly on the choice of technologies, architectural style, and a range of digital services involved in project development and support. In-depth technology analysis is an important instrument that helps the development team develop scalable systems, leverage advantages of new technologies and other software architecture styles, and work out future-proof product strategies.
 
-
-
-I am curious. I always try to learn something new and track tech trends from different sources. When problems arise
-
-
-
+As a lead developer, part of my job is to find and compare potential new technologies and software solutions, validate them against given business requirements and choose the right ones for the projects. When I receive a new project or problem to solve, first, I analyze the requirements, break down the system into functional components to analyze each module. Then I gather insight and list available technologies, platforms, frameworks, tools that could be used to develop each component (search, peer experience, documentation, professional forums and domain-specific resources, etc.) and review relevant contents. Finally, I make a comparative analysis of technologies based on key criteria ( scalability, flexibility, license, price, availability, reliability, performance, support… etc.) and determine risks and define limitations to make the final decision. 
 
 
 
